@@ -1,0 +1,26 @@
+body {
+margin:0;
+overflow:hidden;
+background:#000;
+font-family:sans-serif;
+}
+
+#stage{
+position:fixed;
+top:0;
+left:0;
+width:100vw;
+height:100vh;
+}
+
+#ui{
+position:fixed;
+top:10px;
+left:10px;
+z-index:10;
+}
+
+button,select{
+font-size:20px;
+padding:5px 10px;
+}
